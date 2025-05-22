@@ -3,45 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Results summary component</title>
 </head>
 <body>
 
-  Your Result
-  76
-  of 100
+  <div class="container">
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+    <div class="blue_card">
 
-  Reaction
-  80 / 100
+      <h2 class="Result">Your Result</h2>
 
-  Memory
-  92 / 100
+      <div class="blue_circle">
 
-  Verbal
-  61 / 100
+        <p class="score">76</p>
 
-  Visual
-  72 / 100
+        <p class="score2">of 100</p>
 
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+        <h3 class="appreciation">Great</h3>
+
+        <p class="comment">You scored higher than 65% of the people who have taken these tests.</p>
+
+      </div>
+
+    </div>
+
+    <div class="white_card">
+
+      <h3 class="Summary">Summary</h3>
+
+      <div class="reaction">
+
+        <img src="/assets/images/icon-reaction.svg" alt="reaction_icon">
+
+        <h4 class="reaction_title">Reaction</h4>
+
+        <p class="score_reaction">80 / 100</p>
+
+      </div>
+
+      <div class="memory">
+
+        <img src="/assets/images/icon-memory.svg" alt="memory_icon">
+
+        <h4 class="memory_title">Memory</h4>
+
+        <p class="score_memory">92 / 100</p>
+
+      </div>
+
+      <div class="verbal">
+
+        <img src="/assets/images/icon-verbal.svg" alt="verbal_icon">
+
+        <h4 class="verbal_title">Verbal</h4>
+
+        <p class="score_verbal">61 / 100</p>
+
+      </div>
+
+      <div class="visual">
+
+        <img src="/assets/images/icon-visual.svg" alt="visual_icon">
+
+        <h4 class="visual_title">Visual</h4>
+
+        <p class="score_visual">73 / 100</p>
+
+      </div>
+
+      <button class="continue">Continue</button>
+
+    </div>
+
   </div>
+
 </body>
 </html>
