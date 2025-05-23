@@ -1,0 +1,58 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.blue_card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        to bottom,
+        #7567F4,
+        #8E89F4,
+        #B9ABFB,
+        #D7D4F8,
+        #ECE9F8
+      );
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+
+}
+
+.blue_circle{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(75, 46, 199);
+}
+
+.appreciation_and_comment {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
