@@ -31,12 +31,9 @@ html, body {
     border-radius: 36px;
     background: linear-gradient(
         to bottom,
-        #7567F4,
-        #8E89F4,
-        #B9ABFB,
-        #D7D4F8,
-        #ECE9F8
-      );
+        hsl(252, 100%, 67%),
+        hsl(241, 81%, 54%)
+    );
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 
 }
@@ -53,6 +50,7 @@ html, body {
     height: 193px;
     margin-top: 25px;
     background-color: rgb(75, 46, 199);
+    margin-bottom: 41px;
 }
 
 .appreciation_and_comment {
@@ -60,6 +58,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: center;
 
 }
@@ -106,7 +105,36 @@ html, body {
 
     font-family: "Fightree", sans-serif;
     font-size: 61px;
+    color: hsl(221, 100%, 96%);
+    font-weight: 500;
+
+}
+
+.score2 {
+
+    font-family: "Fightree", sans-serif;
+    font-size: 14px;
+    color: hsl(241, 100%, 89%);
+    font-weight: 700;
+
+}
+
+.appreciation {
+
+    font-family:    "Fightree", sans-serif;
+    font-size: 30px;
+    color: hsl(221, 100%, 96%);
+    font-weight: 500;
+    margin-bottom: 27px;
+
+}
+
+.comment {
+
+    font-family: "Fightree", sans-serif;
+    font-size: 18px;
     color: hsl(241, 100%, 89%);
     font-weight: 500;
+    line-height: 1.5;
 
 }
