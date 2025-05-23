@@ -26,7 +26,9 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    width: 368px;
+    height: 514px;
+    border-radius: 36px;
     background: linear-gradient(
         to bottom,
         #7567F4,
@@ -45,6 +47,11 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    height: 193px;
+    margin-top: 25px;
     background-color: rgb(75, 46, 199);
 }
 
@@ -54,5 +61,52 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+}
+
+.reaction {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.memory {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.verbal {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.visual {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.result {
+
+    margin-top: 42px;
+    font-size: 23px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+
+}
+
+.score {
+
+    font-family: "Fightree", sans-serif;
+    font-size: 61px;
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
 
 }
