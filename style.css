@@ -18,6 +18,7 @@ html, body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: hsl(221, 100%, 96%);
 
 }
 
@@ -138,3 +139,161 @@ html, body {
     line-height: 1.5;
 
 }
+
+.white_card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 368px;
+    height: 514px;
+    border-radius: 0 36px 36px 0;
+    background-color: #ffff;
+
+}
+
+.summary {
+
+    font-family: "Fightree", sans-serif;
+    font-size: 23px;
+    color: hsl(226, 42px, 100%);
+    font-weight: 500;
+    margin-top: 37px;
+    margin-left: 41px;
+    margin-bottom: 34px;
+
+}
+
+.reaction {
+
+    background-color: hsl(353, 82%, 98%);
+    width: 288px;
+    height: 56px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px;
+
+}
+
+.memory {
+
+    background-color: hsl(38, 85%, 97%);
+    width: 288px;
+    height: 56px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px;
+
+}
+
+.verbal {
+
+    background-color: hsl(164, 65%, 97%);
+    width: 288px;
+    height: 56px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px;
+
+}
+
+.visual {
+
+    background-color: hsl(240, 71%, 97%);
+    width: 288px;
+    height: 56px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 42px;
+
+}
+
+.reaction_title {
+
+    font-family: "Fightree", sans-serif;
+    font-size: 16px;
+    color: hsl(359, 55%, 71%);
+    margin-left: 16px;
+    margin-right: 90px;
+
+}
+
+
+.memory_title {
+
+    font-family: "Fightree", sans-serif;
+    font-size: 16px;
+    color: hsl(41, 62%, 66%);
+    margin-left: 16px;
+    margin-right: 90px;
+
+}
+
+.verbal_title {
+
+    font-family: "Fightree", sans-serif;
+    font-size: 16px;
+    color: hsl(165, 43%, 57%);
+    margin-left: 16px;
+    margin-right: 90px;
+
+}
+
+.visual_title {
+
+    font-family: "Fightree", sans-serif;
+    font-size: 16px;
+    color: hsl(236, 42%, 58%);
+    margin-left: 16px;
+    margin-right: 90px;
+
+}
+
+.reaction > img {
+
+    margin-left: 19px;
+
+}
+
+.memory > img {
+
+    margin-left: 19px;
+
+}
+
+
+.verbal > img {
+
+    margin-left: 19px;
+
+}
+
+
+.visual > img {
+
+    margin-left: 19px;
+
+}
+
+.continue {
+
+    width: 288px;
+    height: 56px;
+    border-radius: 26px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(217, 15%, 76%);
+    font-family: "Fightree", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
