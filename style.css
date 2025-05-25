@@ -234,8 +234,8 @@ html, body {
     font-family: "Fightree", sans-serif;
     font-size: 16px;
     color: hsl(359, 55%, 71%);
-    margin-left: 14px;
-    margin-right: 90px;
+    margin-left: 12px;
+    margin-right: 84px;
 
 }
 
@@ -308,6 +308,18 @@ html, body {
     
 }
 
+.continue:hover {
+
+    cursor: pointer;
+    background: linear-gradient(
+        to bottom,
+        hsl(252, 100%, 67%),
+        hsl(241, 81%, 54%)
+    );
+    color: aliceblue;
+
+}
+
 .score_reaction, .score_memory, .score_verbal, .score_visual {
 
     margin-right: 23px;
@@ -337,4 +349,33 @@ html, body {
     color: grey;
     font-weight: 700;
 
+}
+
+
+@media (max-width: 736px) { 
+   
+    .container {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .white_card {
+
+        border-radius: 0 0 36px 36px;
+
+    }
+
+    .comment {
+
+        margin-bottom: 46px;
+
+    }
+
+    .continue {
+
+        margin-bottom: 30px;
+
+    }
 }
