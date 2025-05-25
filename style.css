@@ -7,18 +7,26 @@
 }
 
 html, body {
+
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(221, 100%, 96%);
+
 }
 
 .container {
 
-    height: 100vh;
+    height: 514px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: hsl(221, 100%, 96%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 36px;
 
 }
 
@@ -148,17 +156,18 @@ html, body {
     width: 368px;
     height: 514px;
     border-radius: 0 36px 36px 0;
-    background-color: #ffff;
+    background-color: hsl(0, 0%, 100%);
 
 }
 
 .summary {
 
     font-family: "Fightree", sans-serif;
+    align-self: flex-start;
     font-size: 23px;
     color: hsl(226, 42px, 100%);
-    font-weight: 500;
-    margin-top: 37px;
+    font-weight: 700;
+    margin-top: 45px;
     margin-left: 41px;
     margin-bottom: 34px;
 
@@ -174,6 +183,7 @@ html, body {
     flex-direction: row;
     align-items: center;
     margin-bottom: 16px;
+    justify-content: space-between;
 
 }
 
@@ -187,6 +197,7 @@ html, body {
     flex-direction: row;
     align-items: center;
     margin-bottom: 16px;
+    justify-content: space-between;
 
 }
 
@@ -200,6 +211,7 @@ html, body {
     flex-direction: row;
     align-items: center;
     margin-bottom: 16px;
+    justify-content: space-between;
 
 }
 
@@ -213,6 +225,7 @@ html, body {
     flex-direction: row;
     align-items: center;
     margin-bottom: 42px;
+    justify-content: space-between;
 
 }
 
@@ -221,7 +234,7 @@ html, body {
     font-family: "Fightree", sans-serif;
     font-size: 16px;
     color: hsl(359, 55%, 71%);
-    margin-left: 16px;
+    margin-left: 14px;
     margin-right: 90px;
 
 }
@@ -232,7 +245,7 @@ html, body {
     font-family: "Fightree", sans-serif;
     font-size: 16px;
     color: hsl(41, 62%, 66%);
-    margin-left: 16px;
+    margin-left: 11px;
     margin-right: 90px;
 
 }
@@ -242,7 +255,6 @@ html, body {
     font-family: "Fightree", sans-serif;
     font-size: 16px;
     color: hsl(165, 43%, 57%);
-    margin-left: 16px;
     margin-right: 90px;
 
 }
@@ -252,7 +264,6 @@ html, body {
     font-family: "Fightree", sans-serif;
     font-size: 16px;
     color: hsl(236, 42%, 58%);
-    margin-left: 16px;
     margin-right: 90px;
 
 }
@@ -297,3 +308,33 @@ html, body {
     
 }
 
+.score_reaction, .score_memory, .score_verbal, .score_visual {
+
+    margin-right: 23px;
+
+}
+
+.score_reaction {
+
+    white-space: nowrap;
+
+}
+
+
+.score_reaction_one, .score_memory_one, .score_verbal_one, .score_visual_one {
+
+    font-family: "Fightree", sans-serif;
+    font-size: 16px;
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+
+}
+
+.score_reaction_two, .score_memory_two, .score_verbal_two, .score_visual_two {
+
+    font-family: "Fightree", sans-serif;
+    font-size: 16px;
+    color: grey;
+    font-weight: 700;
+
+}
