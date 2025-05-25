@@ -323,11 +323,6 @@ html, body {
 .score_reaction, .score_memory, .score_verbal, .score_visual {
 
     margin-right: 23px;
-
-}
-
-.score_reaction {
-
     white-space: nowrap;
 
 }
